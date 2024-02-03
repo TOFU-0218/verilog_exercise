@@ -1,0 +1,68 @@
+$date
+	Sat Feb 03 08:58:25 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module problem_tb $end
+$scope module DUT $end
+$var wire 1 ! i_clk $end
+$var wire 2 " i_ctrl [1:0] $end
+$var wire 16 # i_data_0 [15:0] $end
+$var wire 16 $ i_data_1 [15:0] $end
+$var wire 16 % i_data_2 [15:0] $end
+$var wire 16 & i_data_3 [15:0] $end
+$var reg 16 ' o_data [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx '
+b1000 &
+b101 %
+b1111 $
+b0 #
+b0 "
+0!
+$end
+#1
+b0 '
+1!
+#2
+0!
+#3
+1!
+#4
+0!
+b1 "
+#5
+b1111 '
+1!
+#6
+0!
+b10 "
+#7
+b101 '
+1!
+#8
+0!
+b11 "
+#9
+b1000 '
+1!
+#10
+0!
+b0 "
+b1011 #
+#11
+b1011 '
+1!
+#12
+0!

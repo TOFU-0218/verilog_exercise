@@ -1,0 +1,43 @@
+$date
+	Sat Feb 03 00:12:14 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module problem1_tb $end
+$scope module DUT $end
+$var wire 8 ! i_p0 [7:0] $end
+$var wire 8 " i_p1 [7:0] $end
+$var wire 8 # i_p2 [7:0] $end
+$var wire 8 $ o_p [7:0] $end
+$var wire 8 % w_p0 [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#2
+b10001101 $
+b101 %
+b10001000 #
+b1010101 "
+b1111 !
+#4
+b10001 $
+b0 %
+b10001 #
+b10000001 "
+b1110100 !
+#6
